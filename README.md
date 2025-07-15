@@ -26,7 +26,7 @@ In this language, instructions correspond to notes, placeable in a piano roll.
 - `D#5`: move cell content to previous cell
 - `E5`: add two previous cells
 - `F5`: subtract two previous cells
-<br>PS: note length, BPM, time signature, rhythm and swing do not affect the program's execution: only the order does
+<br><br>PS: note length, BPM, time signature, rhythm and swing do not affect the program's execution: only the order does
 
 ## Help
 If you type "help" in the console, a file opens displaying the Note-To-Character map, useful when using the `D5` instruction.
