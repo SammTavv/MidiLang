@@ -7,8 +7,8 @@ Download every file and open the `MidiLangCompiler.exe` executable, you should s
 <br>Before being able to compile your *amazing* midi files, you'll need to calibrate your note offset.
 <br>Since most DAWs don't map their piano roll notes to the standard layout (C4 = 60), the program needs to calculate the offset. Simply follow the instructions written in the console.
 <br>If you don't see the "NOTE OFFSET CALIBRATION" text, you're good to compile your programs and brag about how good of a *hacker* you are.
-<br>(You can change the offset in the automatically generated "calibration" file)
-<br>PS: if you select another file after compiling one, type "r" to compile the new one. I don't know why, but that's the only way it works.
+<br>(You can change the offset in the automatically generated `calibration` file)
+<br>PS: if you select another file after compiling one, type `r` to compile the new one. I don't know why, but that's the only way it works.
 
 ## Instructions
 In this language, instructions correspond to notes, placeable in a piano roll.
