@@ -12,6 +12,7 @@ Download every file and open the `MidiLangCompiler.exe` executable, you should s
 
 ## Instructions
 In this language, instructions correspond to notes, placeable in a piano roll.
+<br>Note length, BPM, velocity, time signature, rhythm and swing do NOT affect the program's execution: only the order does.
 <br>Here are all the notes you can use:
 - `C4`: move pointer to next cell
 - `D4`: move pointer to previous cell
@@ -25,8 +26,7 @@ In this language, instructions correspond to notes, placeable in a piano roll.
 - `D5`: converts next note to ascii character
 - `D#5`: move cell content to previous cell
 - `E5`: add two previous cells
-- `F5`: subtract two previous cells<br>
-PS: note length, BPM, time signature, rhythm and swing do not affect the program's execution: only the order does
+- `F5`: subtract two previous cells
 
 ## Help
 If you type "help" in the console, a file opens displaying the Note-To-Character map, useful when using the `D5` instruction.
